@@ -4,25 +4,27 @@ Usage example for the Honeywell HPMA115 driver
 ## Requirements
 ### Hardware requirements
 The following boards are required:
-- *List Honeywell HPMA115 driver example app hardware requirements here*
+- Zest Sensor Dust
+- Zest Core MTXDot
 
 ### Software requirements
 Honeywell HPMA115 driver example app makes use of the following libraries (automatically
 imported by `mbed deploy` or `mbed import`):
-- *List Honeywell HPMA115 driver example app software requirements here*
+- honeywell-hpma115
+- zest-core-mtxdot
 
 ## Usage
 To clone **and** deploy the project in one command, use `mbed import` and skip to the
 target enabling instructions:
 ```shell
-mbed import "Enter URL here" honeywell-hpma115-example
+mbed import https://gitlab.com/koncepto/CATIE/3sqair/software/honeywell-hpma115-example.git honeywell-hpma115-example
 ```
 
 Alternatively:
 
 - Clone to "honeywell-hpma115-example" and enter it:
   ```shell
-  git clone "Enter URL here" honeywell-hpma115-example
+  git clone https://gitlab.com/koncepto/CATIE/3sqair/software/honeywell-hpma115-example.git honeywell-hpma115-example
   cd honeywell-hpma115-example
   ```
 
